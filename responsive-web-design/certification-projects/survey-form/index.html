@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">Job Application - Developer Position</h1>
+    <p id="description">Please fill out the form below to apply for the Developer position. We look forward to learning
+        more about your skills and experience. Our team will review your application and get back to you soon.</p>
+    <form action="" id="survey-form">
+        <label for="" id="name-label"> Full Name <input type="text" id="name" required
+                placeholder="Enter your full name as it appears on your resume."></label>
+        <label for="" id="email-label">Email Address <input id="email" type="email" required
+                placeholder="Please provide a valid email address for us to contact you."></label>
+        <label for="" id="number-label">When did you start programming? <input id="number" type="number" min="1980"
+                max="2024" placeholder="Exp"></label>
+        <label for="">What is your area of expertise? <select name="" id="dropdown">
+                <option disabled selected value="">Select area</option>
+                <option value="1">Backend Development</option>
+                <option value="2">Frontend Development</option>
+                <option value="3">Full Stack Development</option>
+                <option value="4">DevOps</option>
+                <option value="5">Data Science</option>
+                <option value="6">Mobile Development</option>
+                <option value="7">Other</option>
+            </select>
+        </label>
+        <label for="">How did you hear about our job opening?
+            <input type="radio" name="radio" value="referral"><label for="">Referral</label>
+            <input type="radio" name="radio" value="linkedin"><label for="">LinkedIn</label>
+            <input type="radio" name="radio" value="other"><label for="">Other</label>
+        </label>
+        <label for="">
+            List the programming languages you are most comfortable working with.
+            <label for=""><input type="checkbox" value="java">Java</label>
+            <label for=""><input type="checkbox" value="c#">C#</label>
+            <label for=""><input type="checkbox" value="php">PHP</label>
+            <label for=""><input type="checkbox" value="javascript">JavaScript</label>
+            <label for=""><input type="checkbox" value="python">Python</label>
+        </label>
+        <label for="">Tell us about yourself: <textarea name="" id="" rows="4" cols="50" placeholder="Share a little about your background, skills, and interests..."></textarea></label>
+        <label for=""><input type="submit" id="submit"></label>
+    </form>
+</body>
+
+</html>
