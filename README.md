@@ -4,6 +4,8 @@ Welcome to the **Responsive Web Design** repository! This repository showcases t
 
 ---
 
+![Certificado](certificate.png)
+
 ## Overview
 The **Responsive Web Design** certification was a foundational step in my web development journey. It covered essential topics such as:
 
