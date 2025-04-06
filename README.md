@@ -45,5 +45,3 @@ Here are the projects included in this repository:
 - **Responsive Design Techniques**: Media queries, flexbox, and grid.
 
 ---
-
-Thank you for visiting! 😄
